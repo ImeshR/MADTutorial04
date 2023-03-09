@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/edtName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
         android:ems="10"
         android:hint="Enter Name"
         android:inputType="textPersonName" />
@@ -18,7 +20,8 @@
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
         android:ems="10"
         android:hint="Enter Email"
         android:inputType="textEmailAddress" />
@@ -26,7 +29,8 @@
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword" />
@@ -34,7 +38,8 @@
     <EditText
         android:id="@+id/edtReTypePassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
         android:ems="10"
         android:hint="Re-Enter Passowrd"
         android:inputType="textPassword" />
@@ -43,12 +48,14 @@
         android:id="@+id/btnSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Button" />
 
     <Button
         android:id="@+id/btnCaancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Button" />
 
 </LinearLayout>
